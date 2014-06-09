@@ -1,3 +1,10 @@
+/*  
+ By Rawanski [ra1almaty[-at-]gmail.com]
+ @ra1ski
+
+ www.rawanski.com   
+*/
+
 	var qazCollection = {
 		'kk' : { 
 			'а':'a','ә':'ä','б':'b','в':'v','г':'g',
@@ -39,27 +46,26 @@
 			'Ъ': "", 'Ы': "ى", 'І': "I", 'Ь': "", 'Э': "ە",
 			'Ю': "يۋ",'Я': "يا"					
 		}	
-	};
-
-
-
-	var text = 'Қырғыз суретшісі Астанада 60 еңбегін көпшілік назарына ұсынады'; 
-
-	var translate = function(str,type) 
+	}; 
+	
+	var translate = function(str, type) 
 	{
-		var result = '';
+		var result = ''; 
 
-		for(var i=0; i < text.length; i++) 
+		for(var i=0; i < str.length; i++) 
 		{
-			if(qazCollection[type][text[i]] != undefined) 
+			if(qazCollection[type][str[i]] != undefined) 
 			{
-				result += qazCollection[type][text[i]];
+				result += qazCollection[type][str[i]];
 			} else {
-				result += text[i] ;
+				result += str[i] ;
 			}
 		} 
 
 		return result;
 	}  
 
-	text = translate(text, 'tt'); 
+	// Mısal
+	var text = 'Қырғыз суретшісі Астанада 60 еңбегін көпшілік назарына ұсынады';
+
+	text = translate(text, 'tt'); // 'tt' nemese 'kk'
