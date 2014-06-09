@@ -1,4 +1,12 @@
 kirill-latin-tote-translit
 ==========================
 
-JavaScript. Qazaqwa translit. Latin, kirill, tote nusqalari. Транслит с кириллицы на латиницу и арабику
+JavaScript.  
+
+Кирилл-Латын, Кирилл-Төте транслиттері. Жалпы әріптер жиынын көшіріп алсаңыз да болады. 
+
+Kïrïll-Latın, Kïrïll-Töte translïtteri. Jalpı äripter jïının köşirip alsañız da boladı 
+
+كيريلل-لاتىن, كيريلل-توپتە ترانسليتتەرى. جالپى ارىپتەر جيىنىن كوپشىرىپ الساڭىز دا بولادى
+
+Транслит с кириллицы на латиницу и арабику
